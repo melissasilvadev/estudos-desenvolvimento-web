@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "GOT";
+    src: url(../fontes/GOT.ttf);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#wrapper {
+    background: #242425;
+    background: linear-gradient(122deg,rgba(0, 0, 0, 1) 0%, rgba(87, 199, 133, 0) 50%, rgba(0, 0, 0, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 90px 125px;
+}
+
+.avatar {
+    display: none;
+}
+
+.avatar.selected {
+    display: block;
+    max-width: 650px;
+}
+
+.avatar h2 {
+    font-size: 35px;
+    font-family: "GOT";
+    letter-spacing: 8px;
+    padding-bottom: 80px;
+}
+
+.avatar p {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+}
+
+.selectors {
+    align-self: center;
+}
+
+.selector {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 8px;
+    position: relative;
+    border: 1px white solid;
+}
+
+.selector.selected{
+    background-color: green;
+}
+
+.bg-0 {
+    background: url(../images/balerion.png) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-1 {
+    background: url(../images/syrax.png) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: url(../images/arrax.png) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: url(../images/caraxes.png) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-4 {
+    background: url(../images/seasmoke.png) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-5 {
+    background: url(../images/vermax.png) no-repeat center center;
+    background-size: cover;
+}
+
+.bg-6 {
+    background: url(../images/vhagar.png) no-repeat center center;
+    background-size: cover;
+}

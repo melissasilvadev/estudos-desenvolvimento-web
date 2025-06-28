@@ -1,0 +1,23 @@
+@media (max-width: 860px){
+    #wrapper{
+        justify-content: flex-end;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 610px){
+    .avatar h2{
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+
+    .avatar p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 520px){
+    #wrapper {
+        padding: 90px 50px;
+    }
+}

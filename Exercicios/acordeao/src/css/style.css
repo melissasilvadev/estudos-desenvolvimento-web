@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#wrapper {
+    font-family: "Roboto", sans-serif;
+    background-color: #E5E5E5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 347px;
+    width: 655px;
+    display: flex;
+    background-color: #FCFCFC;
+    justify-content: center;
+    padding: 25px 40px 25px 0;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    gap: 40px;
+}
+
+.card img {
+    margin-left: -100px;
+}
+
+#faq {
+    padding: 30px 0px 10px 0px;
+    margin: 0 auto;
+}
+
+#faq li {
+    border-bottom: 1px #D4D4D4 solid;
+    list-style: none;
+    padding: 20px 0;
+    width: 377px;
+}
+
+.questions {
+    font-weight: 500;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.answers {
+    font-weight: 300;
+    font-size: 15px;
+    display: none;
+}
+
+.btn {
+    color: #A6A6A6;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.answers.active {
+    display: block;
+}
+
+.btn.active {
+    color: #F14624;
+}

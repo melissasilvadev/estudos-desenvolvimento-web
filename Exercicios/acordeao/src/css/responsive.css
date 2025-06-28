@@ -1,0 +1,37 @@
+@media (max-width: 860px) {
+    .card {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        height: 450px;
+        width: 500px;
+        gap: 10px;
+    }
+
+    .card img {
+        margin-left: 0;
+        margin-top: -100px;
+        width: 40%;
+    }
+}
+
+@media (max-width: 650px) {
+    .card {
+        width: 450px;
+    }
+}
+
+@media (max-width: 470px) {
+    #faq li {
+        width: 250px;
+    }
+
+    .card {
+        width: 320px;
+    }
+
+    .card img{
+        width: 50%;
+    }
+}
